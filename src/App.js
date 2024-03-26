@@ -38,13 +38,12 @@ const App = () => {
             <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full'>
               <Navbar />
             </div>
-          </div>
 
-          <div>
+          <div >
             <Routes>
               {/* Dashboard */}
-              <Route path='/ecommerce' element={<Ecommerce />} />
               <Route path='/' element={<Ecommerce />} />
+              <Route path='/ecommerce' element={<Ecommerce />} />
 
               {/* Pages */}
               <Route path='/employees' element={<Employees />} />
@@ -66,17 +65,13 @@ const App = () => {
               <Route path='/color-mapping' element={<ColorMapping />} />
               <Route path='/pyramid' element={<Pyramid />} />
               <Route path='/stacked' element={<Stacked />} />
-
-
-
-
             </Routes>
           </div>
-          
+          </div>
         </div>
       </BrowserRouter>
     </div>
   )
 }
 
-export default App
+export default App;
