@@ -28,7 +28,7 @@ const SparkLine = ({currentColor, id, type, height, width, data, color}) => {
           services={[SparklineTooltip]}
         />
       </SparklineComponent>
-  )
+  );
 }
 
 export default SparkLine;
